@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Entity;
 using System.Web;
 using System.Web.Mvc;
 using VidlyHw02.Models;
@@ -24,26 +25,32 @@ namespace VidlyHw02.Controllers
         // GET: Customers
         public ActionResult Index()
         {
-            var customers = GetCustomers();
-            //var customers = _context
+           // var customers = GetCustomers();
+            var customers = _context.Customer.Include(c => c.MembershipType).ToList();
             return View(customers);
 
         }
         public ActionResult Details(int Id)
         {
 
-            var customers = GetCustomers().SingleOrDefault(c => c.Id == Id);
-
+            //var customers = GetCustomers().SingleOrDefault(c => c.Id == Id);
+            var customers = _context.Customer.SingleOrDefault(c => c.Id == Id);
 
             //var customers = tmp.SingleOrDefault(c => c.Id == Id);
 
-            if(customers == null)
+            if (customers == null)
                 return HttpNotFound();
             return View(customers);
         }
 
+        public ActionResult New()
+        {
+            return View();
+        }
 
-        private IEnumerable<Customer> GetCustomers()
+        /*
+        private IEnumerabl
+        e<Customer> GetCustomers()
         {
             return new List<Customer>
             {
@@ -51,5 +58,6 @@ namespace VidlyHw02.Controllers
                 new Customer { Name = "Simen Chung" ,Id = 2}
             };
         }
+        */
     }
 }

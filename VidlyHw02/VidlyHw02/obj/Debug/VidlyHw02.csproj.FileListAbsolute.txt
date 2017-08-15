@@ -114,3 +114,7 @@ C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.pdb
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.InitialModel.resources
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.csproj.GenerateResource.Cache
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addCustomers.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addMembershipType.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addSetCustomerLimit.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addBirthdate.resources

@@ -12,5 +12,8 @@ namespace VidlyHw02.Models
 		public short SingUpFee { get; set; }
 		public byte DurationInMonths { get; set; }
 		public byte DiscountRate { get; set; }
+
+		public static readonly byte Uknow = 0;
+		public static readonly byte PayasYou = 1;
 	}
 }

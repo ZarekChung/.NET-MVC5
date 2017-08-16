@@ -5,6 +5,7 @@ using System.Data.Entity;
 using System.Web;
 using System.Web.Mvc;
 using VidlyHw02.Models;
+using VidlyHw02.ViewModel;
 
 namespace VidlyHw02.Controllers
 {
@@ -45,9 +46,47 @@ namespace VidlyHw02.Controllers
 
         public ActionResult New()
         {
-            return View();
-        }
+	        var membershipType = _context.MembershipType.ToList();
+	        var viewModel = new NewCustomerViewModel()
+	        {
+		        MembershipTypes = membershipType
+	        };
 
+			return View("CustomerForm", viewModel);
+        }
+		[HttpPost]
+		public ActionResult Save(Customer customer)
+		{
+			if (customer.Id == 0)
+				_context.Customer.Add(customer);
+			else
+			{
+				var customerInDb = _context.Customer.Single(c => c.Id == customer.Id);
+				//Mapper.Map(customer, customerInDb)
+				customerInDb.Name = customer.Name;
+				customerInDb.Birthdate = customer.Birthdate;
+				customerInDb.MembershipTypeId = customer.MembershipTypeId;
+				customerInDb.IsSubscribedToNews = customer.IsSubscribedToNews;
+				//TryUpdateModel(customerInDb);
+			}
+			_context.SaveChanges();
+
+			return RedirectToAction("Index","Customers");
+		}
+
+		public ActionResult Edit(int id)
+		{
+			var customer = _context.Customer.SingleOrDefault(c => c.Id == id);
+
+			if (customer == null)
+				return HttpNotFound();
+			var viewmodel = new NewCustomerViewModel()
+			{
+				Customer = customer,
+				MembershipTypes = _context.MembershipType.ToList()
+			};
+			return View("CustomerForm", viewmodel);
+		}
         /*
         private IEnumerabl
         e<Customer> GetCustomers()

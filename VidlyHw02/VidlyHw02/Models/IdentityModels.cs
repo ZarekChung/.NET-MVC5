@@ -26,6 +26,7 @@ namespace VidlyHw02.Models
 		}
 		public DbSet<Movie> Movie { get; set; }
 		public DbSet<Customer> Customer { get; set; }
+		public DbSet<MembershipType> MembershipType { get; set; }
 		public static ApplicationDbContext Create()
 		{
 			return new ApplicationDbContext();

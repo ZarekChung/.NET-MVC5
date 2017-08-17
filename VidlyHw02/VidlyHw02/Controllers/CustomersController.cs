@@ -76,7 +76,9 @@ namespace VidlyHw02.Controllers
 				var customerInDb = _context.Customer.Single(c => c.Id == customer.Id);
 				//Mapper.Map(customer, customerInDb)
 				customerInDb.Name = customer.Name;
+				//var tempDate = customer.Birthdate.ToString();
 				customerInDb.Birthdate = customer.Birthdate;
+				//customerInDb.Birthdate = DateTime.ParseExact(tempDate,"DD MMM YYYY", System.Globalization.CultureInfo.InvariantCulture);
 				customerInDb.MembershipTypeId = customer.MembershipTypeId;
 				customerInDb.IsSubscribedToNews = customer.IsSubscribedToNews;
 				//TryUpdateModel(customerInDb);

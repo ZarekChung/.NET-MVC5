@@ -241,3 +241,9 @@ C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyH
 C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.csproj.GenerateResource.Cache
 C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.dll
 C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.pdb
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Net.Http.Formatting.dll
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Web.Http.dll
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Web.Http.WebHost.dll
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Net.Http.Formatting.xml
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Web.Http.xml
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Web.Http.WebHost.xml

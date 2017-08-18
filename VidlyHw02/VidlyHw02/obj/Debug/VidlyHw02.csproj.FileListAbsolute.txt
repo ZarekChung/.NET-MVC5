@@ -247,3 +247,5 @@ C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Web.Ht
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Net.Http.Formatting.xml
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Web.Http.xml
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Web.Http.WebHost.xml
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\AutoMapper.dll
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\AutoMapper.xml

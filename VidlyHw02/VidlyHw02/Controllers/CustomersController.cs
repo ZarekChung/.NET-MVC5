@@ -27,9 +27,9 @@ namespace VidlyHw02.Controllers
         public ActionResult Index()
         {
            // var customers = GetCustomers();
-            var customers = _context.Customer.Include(c => c.MembershipType).ToList();
-            return View(customers);
-
+            //var customers = _context.Customer.Include(c => c.MembershipType).ToList();
+            //return View(customers);
+	        return View();
         }
         public ActionResult Details(int Id)
         {

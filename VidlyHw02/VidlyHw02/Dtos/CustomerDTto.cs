@@ -15,9 +15,11 @@ namespace VidlyHw02.Dtos
 
 		public bool IsSubscribedToNews { get; set; }
 
+		public MembershipType MembershipType { get; set; }
+
 		public byte MembershipTypeId { get; set; }
 
-		[Min18YearsIfAMember]
+		//[Min18YearsIfAMember]
 		public DateTime? Birthdate { get; set; }
 	}
 }

@@ -29,7 +29,11 @@ namespace VidlyHw02.Controllers
            // var customers = GetCustomers();
             //var customers = _context.Customer.Include(c => c.MembershipType).ToList();
             //return View(customers);
-	        return View();
+
+	        if (User.IsInRole(RoleName.CanManageMovies))
+				return View("List");
+			else
+				return View();
         }
         public ActionResult Details(int Id)
         {
@@ -44,6 +48,7 @@ namespace VidlyHw02.Controllers
             return View(customers);
         }
 
+		[Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult New()
         {
 	        var membershipType = _context.MembershipType.ToList();

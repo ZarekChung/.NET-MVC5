@@ -8,6 +8,10 @@ namespace VidlyHw02.Models
         [Required]
         [Display(Name = "電子郵件")]
         public string Email { get; set; }
+
+	    [Required]
+	    [Display(Name = "Driving License")]
+		public string DrivingLicense { get; set; }
     }
 
     public class ExternalLoginListViewModel
@@ -64,6 +68,9 @@ namespace VidlyHw02.Models
 
     public class RegisterViewModel
     {
+		[Required]
+		[Display(Name= "Driving License")]
+	    public string DrivingLicense { get; set; }
         [Required]
         [EmailAddress]
         [Display(Name = "電子郵件")]

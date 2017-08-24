@@ -119,7 +119,6 @@ C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addSetCustomerLimit.resources
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addBirthdate.resources
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addMembershipTypeName.resources
-C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.csprojResolveAssemblyReference.cache
 C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\ApplicationInsights.config
 C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\roslyn\csc.exe
 C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\roslyn\csc.exe.config
@@ -260,3 +259,13 @@ C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Web.H
 C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\System.Web.Http.WebHost.xml
 C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.SeedUsers.resources
 C:\Users\Zarek Chung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\Glimpse.Ado.dll
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\Glimpse.AspNet.dll
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\Glimpse.Core.dll
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\Glimpse.EF6.dll
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\Glimpse.Mvc5.dll
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addMovieProperties.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addGenre.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addNewGenre.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.csprojResolveAssemblyReference.cache

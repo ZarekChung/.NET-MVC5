@@ -273,6 +273,34 @@
     <Compile Include="Migrations\201708240909349_addNewGenre.Designer.cs">
       <DependentUpon>201708240909349_addNewGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708250337539_addMovieGenreId.cs" />
+    <Compile Include="Migrations\201708250337539_addMovieGenreId.Designer.cs">
+      <DependentUpon>201708250337539_addMovieGenreId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708250757521_addNewMovieGenreId.cs" />
+    <Compile Include="Migrations\201708250757521_addNewMovieGenreId.Designer.cs">
+      <DependentUpon>201708250757521_addNewMovieGenreId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708250810082_addNew2MovieGenreId.cs" />
+    <Compile Include="Migrations\201708250810082_addNew2MovieGenreId.Designer.cs">
+      <DependentUpon>201708250810082_addNew2MovieGenreId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708250813343_addtestMovieGenreId.cs" />
+    <Compile Include="Migrations\201708250813343_addtestMovieGenreId.Designer.cs">
+      <DependentUpon>201708250813343_addtestMovieGenreId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708250820012_addfinalMovieGenreId.cs" />
+    <Compile Include="Migrations\201708250820012_addfinalMovieGenreId.Designer.cs">
+      <DependentUpon>201708250820012_addfinalMovieGenreId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708250830352_addtest2MovieGenreId.cs" />
+    <Compile Include="Migrations\201708250830352_addtest2MovieGenreId.Designer.cs">
+      <DependentUpon>201708250830352_addtest2MovieGenreId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708250835538_addfinal3MovieGenreId.cs" />
+    <Compile Include="Migrations\201708250835538_addfinal3MovieGenreId.Designer.cs">
+      <DependentUpon>201708250835538_addfinal3MovieGenreId.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -597,6 +625,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708240909349_addNewGenre.resx">
       <DependentUpon>201708240909349_addNewGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708250337539_addMovieGenreId.resx">
+      <DependentUpon>201708250337539_addMovieGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708250757521_addNewMovieGenreId.resx">
+      <DependentUpon>201708250757521_addNewMovieGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708250810082_addNew2MovieGenreId.resx">
+      <DependentUpon>201708250810082_addNew2MovieGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708250813343_addtestMovieGenreId.resx">
+      <DependentUpon>201708250813343_addtestMovieGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708250820012_addfinalMovieGenreId.resx">
+      <DependentUpon>201708250820012_addfinalMovieGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708250830352_addtest2MovieGenreId.resx">
+      <DependentUpon>201708250830352_addtest2MovieGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708250835538_addfinal3MovieGenreId.resx">
+      <DependentUpon>201708250835538_addfinal3MovieGenreId.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

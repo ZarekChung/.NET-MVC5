@@ -6,27 +6,29 @@ using System.Web;
 
 namespace VidlyHw02.Models
 {
-    public class Movie
-    {
-	    [Required]
+	public class Movie
+	{
+		[Required]
 		public int Id { get; set; }
 
-	    [Required]
+		[Required]
 		public string Name { get; set; }
+		
+		public Genre Genre { get; set; }
 
-	    [Required]
-		public string Genre { get; set; }
-
-	    [Required]
-	    [Display(Name = "Release Date")]
+		
+		public byte GenreId { get; set; }
+		
+		[Required]
+		[Display(Name = "Release Date")]
 		public DateTime RealeaseDate { get; set; }
 
-	    [Required]
-	    [Display(Name = "Date Added")]
+		[Required]
+		[Display(Name = "Date Added")]
 		public DateTime DateAdded { get; set; }
 
-	    [Required]
-	    [Display(Name = "Number In Stock")]
+		[Required]
+		[Display(Name = "Number In Stock")]
 		public int NumberInStock { get; set; }
 	}
 }

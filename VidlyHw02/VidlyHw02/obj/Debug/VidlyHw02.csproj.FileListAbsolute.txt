@@ -268,4 +268,10 @@ C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\bin\Glimpse.Mvc5.
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addMovieProperties.resources
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addGenre.resources
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addNewGenre.resources
-C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.csprojResolveAssemblyReference.cache
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addMovieGenreId.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addNewMovieGenreId.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addNew2MovieGenreId.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addtestMovieGenreId.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addfinalMovieGenreId.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addtest2MovieGenreId.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.addfinal3MovieGenreId.resources

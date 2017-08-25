@@ -22,7 +22,7 @@ namespace VidlyHw02.Controllers
 		public ActionResult Index()
 		{
 			var movies = _context.Movie.ToList();
-            return View(movies);
+			return View(movies);
         }
 		
 		//Detail
@@ -45,6 +45,15 @@ namespace VidlyHw02.Controllers
 			};
 
 			return View("MovieForm", viewModel);
+		}
+		[HttpPost]
+		public ActionResult Save(Movie movie)
+		{
+			movie.DateAdded = DateTime.Now;
+			
+			_context.Movie.Add(movie);
+			_context.SaveChanges();
+			return RedirectToAction("Index", "Movies");
 		}
 		
     }

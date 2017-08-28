@@ -301,6 +301,22 @@
     <Compile Include="Migrations\201708250835538_addfinal3MovieGenreId.Designer.cs">
       <DependentUpon>201708250835538_addfinal3MovieGenreId.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708280716197_UpdateGenre.cs" />
+    <Compile Include="Migrations\201708280716197_UpdateGenre.Designer.cs">
+      <DependentUpon>201708280716197_UpdateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708280717539_UpdateGenreNew.cs" />
+    <Compile Include="Migrations\201708280717539_UpdateGenreNew.Designer.cs">
+      <DependentUpon>201708280717539_UpdateGenreNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708280720379_DeleteGeneres.cs" />
+    <Compile Include="Migrations\201708280720379_DeleteGeneres.Designer.cs">
+      <DependentUpon>201708280720379_DeleteGeneres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708280722242_AddGeneres.cs" />
+    <Compile Include="Migrations\201708280722242_AddGeneres.Designer.cs">
+      <DependentUpon>201708280722242_AddGeneres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -646,6 +662,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708250835538_addfinal3MovieGenreId.resx">
       <DependentUpon>201708250835538_addfinal3MovieGenreId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708280716197_UpdateGenre.resx">
+      <DependentUpon>201708280716197_UpdateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708280717539_UpdateGenreNew.resx">
+      <DependentUpon>201708280717539_UpdateGenreNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708280720379_DeleteGeneres.resx">
+      <DependentUpon>201708280720379_DeleteGeneres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708280722242_AddGeneres.resx">
+      <DependentUpon>201708280722242_AddGeneres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

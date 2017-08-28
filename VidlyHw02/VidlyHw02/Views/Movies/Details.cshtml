@@ -1,6 +1,6 @@
-﻿@using VidlyHw02.Models
+﻿
 
-
+@model VidlyHw02.Models.Movie
 @{
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,7 +8,7 @@
 
 <H2>@Model.Name</H2>
 <ul>
-    <li>Genre: @Model.Genre</li>
+    <li>Genre: @Model.Genre.Name</li>
     <li>Release Date: @Model.RealeaseDate.ToLongDateString()</li>
     <li>Date Added: @Model.DateAdded.ToLongDateString()</li>
     <li>Number in Stock: @Model.NumberInStock</li>

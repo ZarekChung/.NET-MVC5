@@ -16,7 +16,6 @@ namespace VidlyHw02.Models
 		
 		public Genre Genre { get; set; }
 
-		
 		public byte GenreId { get; set; }
 		
 		[Required]

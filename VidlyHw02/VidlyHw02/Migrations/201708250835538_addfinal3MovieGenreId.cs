@@ -9,12 +9,12 @@ namespace VidlyHw02.Migrations
         {
             AddColumn("dbo.Movies", "GenreId", c => c.Byte(nullable: false));
             CreateIndex("dbo.Movies", "GenreId");
-            AddForeignKey("dbo.Movies", "GenreId", "dbo.Genres", "Id", cascadeDelete: true);
+            //AddForeignKey("dbo.Movies", "GenreId", "dbo.Genres", "Id", cascadeDelete: true);
         }
         
         public override void Down()
         {
-            DropForeignKey("dbo.Movies", "GenreId", "dbo.Genres");
+            //DropForeignKey("dbo.Movies", "GenreId", "dbo.Genres");
             DropIndex("dbo.Movies", new[] { "GenreId" });
             DropColumn("dbo.Movies", "GenreId");
         }

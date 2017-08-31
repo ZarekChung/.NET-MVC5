@@ -8,6 +8,10 @@ namespace VidlyHw02.Models
 {
 	public class Movie
 	{
+		public Movie()
+		{
+			RealeaseDate = DateTime.Now;
+		}
 		[Required]
 		public int Id { get; set; }
 
@@ -20,7 +24,7 @@ namespace VidlyHw02.Models
 		
 		[Required]
 		[Display(Name = "Release Date")]
-		public DateTime RealeaseDate { get; set; }
+		public DateTime RealeaseDate { get; set; }//= DateTime.Now;
 
 		[Required]
 		[Display(Name = "Date Added")]
@@ -29,5 +33,8 @@ namespace VidlyHw02.Models
 		[Required]
 		[Display(Name = "Number In Stock")]
 		public int NumberInStock { get; set; }
+
+
+
 	}
 }

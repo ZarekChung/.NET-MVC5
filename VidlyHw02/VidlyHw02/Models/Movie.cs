@@ -22,6 +22,8 @@ namespace VidlyHw02.Models
 
 		public byte GenreId { get; set; }
 		
+		public byte NumberAvailable { get; set; }
+
 		[Required]
 		[Display(Name = "Release Date")]
 		public DateTime RealeaseDate { get; set; }//= DateTime.Now;

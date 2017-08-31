@@ -35,6 +35,8 @@ namespace VidlyHw02.Models
 		public DbSet<Genre> Genre { get; set; }
 		public DbSet<MembershipType> MembershipType { get; set; }
 
+		public DbSet<Rental> Rental { get; set; }
+
 
 		public static ApplicationDbContext Create()
 		{

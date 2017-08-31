@@ -279,3 +279,6 @@ C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.UpdateGenreNew.resources
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.DeleteGeneres.resources
 C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.AddGeneres.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.csprojResolveAssemblyReference.cache
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.AddRental.resources
+C:\Users\zarekchung\Source\Repos\.NET-MVC5\VidlyHw02\VidlyHw02\obj\Debug\VidlyHw02.Migrations.AddMovieNumberAvailable.resources

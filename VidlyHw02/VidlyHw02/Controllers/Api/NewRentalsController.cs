@@ -14,14 +14,28 @@ namespace VidlyHw02.Controllers.Api
 		private ApplicationDbContext _context;
 		public IHttpActionResult CreateNewRentals(NewRentalDto newRentalDto)
 		{
+			/*
+			if(newRentalDto.MovieIds.Count==0)
+				return BadRequest("No Movie IDs have been given.");
+*/
 			var customer = _context.Customer.Single(
 				c => c.Id == newRentalDto.CustomerId);
-
+			/*
+			if (customer == null)
+				return BadRequest("CustomerId is not valid.");
+				*/
 			var movies = _context.Movie.Where(
-				m => newRentalDto.MovieIds.Contains(m.Id));
-
+				m => newRentalDto.MovieIds.Contains(m.Id)).ToList();
+			/*
+			if(movies.Count != newRentalDto.MovieIds.Count)
+				return BadRequest("One or more MovieIDs are invalid.");
+*/
 			foreach (var movie in movies)
 			{
+				if(movie.NumberAvailable == 0)
+					return BadRequest("Movie is not available.");
+
+				movie.NumberAvailable--;
 				var rental = new Rental
 				{
 					Customer = customer,

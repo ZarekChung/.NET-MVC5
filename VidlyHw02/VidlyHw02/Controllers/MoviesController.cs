@@ -49,6 +49,7 @@ namespace VidlyHw02.Controllers
 			return View("MovieForm", viewModel);
 		}
 		[HttpPost]
+		[ValidateAntiForgeryToken]
 		public ActionResult Save(Movie movie)
 		{
 			/*
@@ -56,6 +57,15 @@ namespace VidlyHw02.Controllers
 			
 			_context.Movie.Add(movie);
 	*/
+			if (!ModelState.IsValid)
+			{
+				var viewModel = new NewMovieViewModel()
+				{
+					Movie = movie,
+					Genres = _context.Genre.ToList()
+				};
+				return View("MovieForm", viewModel);
+			}
 			if (movie.Id == 0)
 			{
 				movie.DateAdded = DateTime.Now;

@@ -219,6 +219,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Api\CustomersController.cs" />
+    <Compile Include="Controllers\Api\MoviesController.cs" />
     <Compile Include="Controllers\Api\NewRentalsController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -226,7 +227,9 @@
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Controllers\RentalsController.cs" />
     <Compile Include="Dtos\CustomerDTto.cs" />
+    <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
+    <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Dtos\NewRentalDto.cs" />
     <Compile Include="GlimpseSecurityPolicy.cs" />
     <Compile Include="Global.asax.cs">
@@ -327,6 +330,10 @@
     <Compile Include="Migrations\201708310958265_AddMovieNumberAvailable.cs" />
     <Compile Include="Migrations\201708310958265_AddMovieNumberAvailable.Designer.cs">
       <DependentUpon>201708310958265_AddMovieNumberAvailable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710190844291_AddPhoneToApplicationUser.cs" />
+    <Compile Include="Migrations\201710190844291_AddPhoneToApplicationUser.Designer.cs">
+      <DependentUpon>201710190844291_AddPhoneToApplicationUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -702,6 +709,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708310958265_AddMovieNumberAvailable.resx">
       <DependentUpon>201708310958265_AddMovieNumberAvailable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710190844291_AddPhoneToApplicationUser.resx">
+      <DependentUpon>201710190844291_AddPhoneToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

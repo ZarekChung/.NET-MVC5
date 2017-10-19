@@ -33,7 +33,6 @@ namespace VidlyHw02.Controllers.Api
 		}
 
 		// GET /api/customers/1
-		//有點搞不太懂差別??
 		public IHttpActionResult GetCustomer(int id)
 		{
 			var customer = _context.Customer.SingleOrDefault(c => c.Id == id);

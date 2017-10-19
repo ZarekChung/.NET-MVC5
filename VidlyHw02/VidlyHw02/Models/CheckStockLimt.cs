@@ -18,8 +18,7 @@ namespace VidlyHw02.Models
 			}*/
 
 			var iStock = movie.NumberInStock;
-			//return new ValidationResult("The field Number in Stock must be between 1 and 20.");
-			return (iStock < Movie.maxmun) ? ValidationResult.Success : new ValidationResult("The field Number in Stock must be between 1 and 20.");
+			return (iStock < Movie.Maxmun && iStock > Movie.Minmun) ? ValidationResult.Success : new ValidationResult("The field Number in Stock must be between 1 and 20.");
 		}
 	}
 }

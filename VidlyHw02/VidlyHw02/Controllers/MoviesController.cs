@@ -19,6 +19,7 @@ namespace VidlyHw02.Controllers
 			_context = new ApplicationDbContext();
 
 		}
+		
 		// GET: Movies
 		public ActionResult Index()
 		{

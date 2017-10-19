@@ -11,6 +11,7 @@ namespace VidlyHw02.Models
 		public Movie()
 		{
 			RealeaseDate = DateTime.Now;
+		
 		}
 		[Required]
 		public int Id { get; set; }
@@ -21,7 +22,7 @@ namespace VidlyHw02.Models
 		public Genre Genre { get; set; }
 
 		[Required(ErrorMessage = "The  Genre is Required")]
-		[CheckStockLimt]
+		//[CheckStockLimt]
 		public byte GenreId { get; set; }
 		
 		public byte NumberAvailable { get; set; }
@@ -36,10 +37,11 @@ namespace VidlyHw02.Models
 
 		[Display(Name = "Number In Stock")]
 		[CheckStockLimt]
+		//[Range(1, 20)]
 		public int NumberInStock { get; set; }
 
-		public static readonly byte minmun = 1;
-		public static readonly byte maxmun = 20;
+		public static readonly byte Minmun = 1;
+		public static readonly byte Maxmun = 20;
 
 
 	}
